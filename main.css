@@ -1,0 +1,50 @@
+.container {
+  margin: 0 auto;
+  width: 720px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+nav {
+  padding: 0 30px 0 0;
+}
+ul {
+  font-size: 15px;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  height: 30px;
+  width: 125px;
+  padding: 15px 0 0 0;
+
+  background: #888; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#ededed, #cecece); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ededed, #cecece); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ededed, #cecece); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ededed, #cecece); /* Standard syntax */
+}
+
+ul li a {
+  color: #202021;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: white;
+}
+ul li:first-child {
+ border-radius: 10px 0 0 10px;
+}
+ul li:last-child {
+ border-radius: 0 10px 10px 0;
+}
+
+
